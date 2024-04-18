@@ -18,6 +18,7 @@ class _LineChartSample9State extends State<LineChartSample9> {
   bool helperText = false;
 
   // comment line changed
+  // comment line added but about to change
   final spots = List.generate(101, (i) => (i - 50) / 10)
       .map((x) => FlSpot(x, cos(x)))
       .toList();
