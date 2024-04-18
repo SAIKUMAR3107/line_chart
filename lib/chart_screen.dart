@@ -22,6 +22,7 @@ class _LineChartSample9State extends State<LineChartSample9> {
       .map((x) => FlSpot(x, cos(x)))
       .toList();
 
+  //added a comment line
   Widget bottomTitleWidgets(double value, TitleMeta meta, double chartWidth) {
     if (value % 1 != 0) {
       return Container();
