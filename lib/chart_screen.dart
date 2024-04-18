@@ -17,7 +17,7 @@ class _LineChartSample9State extends State<LineChartSample9> {
   var maxXValue = TextEditingController();
   bool helperText = false;
 
-  // comment line added
+  // comment line added and modified
   final spots = List.generate(101, (i) => (i - 50) / 10)
       .map((x) => FlSpot(x, cos(x)))
       .toList();
